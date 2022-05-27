@@ -5,39 +5,39 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.container img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.container__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .container { text-align: center;
   }
 }
 
-.centered-main-page-element {
+.content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.content__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.content__wrapper {
   display: flex;
 }
 
